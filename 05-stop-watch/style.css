@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stopWatch{
+    font-size: 120px;
+    font-weight: 500;
+    color: rgb(58, 240, 225);
+}
+.mili{
+    height: 30px;
+    width: 100%;
+    width: 450px;
+    color: rgb(58, 240, 225);
+    text-align: right;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.remote{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
