@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box  ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #374151;
+}
+
+.track{
+    width: 370px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #eab308;
+    margin-bottom: 40px;
+}
+.track div{
+    padding: 10px 0px 10px 10px ;
+    margin-bottom: 5px  ;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.time{
+   font-size: 20px; 
+   color: white;
+
+}
+.progressBar{
+    width: 400px;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    width: 0px;
+    height: 3px;
+    background-color: #eab308;
+
+}
+.key{
+    color: white;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+
+.key i{
+    font-size: 30px;
+}
+
+.key .pauseButton{
+    display: none;
+}
+
