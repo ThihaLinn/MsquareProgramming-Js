@@ -32,7 +32,7 @@ shoppingItem.addEventListener("click",()=>{
 //Final state
 productId++
 input.value= ""
-//let beforRemoved = container.getElementsByTagName("div").length+1
+let beforRemoved = container.getElementsByTagName("div").length+1
 
 //remove state
 trush.addEventListener("click",()=>{

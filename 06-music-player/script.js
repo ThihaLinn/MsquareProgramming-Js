@@ -33,7 +33,6 @@ for (let i = 0; i < music.length; i++) {
         console.log("working")
     })
 
-
 }
 let totalDuration;
 let miliDuration;
