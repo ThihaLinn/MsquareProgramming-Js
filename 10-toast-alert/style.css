@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(62, 65, 64);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+.btn{
+    font-size: 22px;
+    margin-bottom: 400px;
+    text-align: center;
+    
+}
+
+div{
+    position: fixed;
+    padding: 10px 20px;
+    color: white;
+    background-color: green;
+    transition: bottom  ease 0.5s;
+}
