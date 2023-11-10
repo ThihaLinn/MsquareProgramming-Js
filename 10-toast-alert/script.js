@@ -6,14 +6,14 @@ btn.addEventListener("click",() => {
     message.innerHTML = ""
     message.textContent = "Your file was succeffully uploaded"
     body.append(message)
-    // message.style.bottom = `-${message.offsetHeight}px`
-    message.style.transform = `translateY(-${message.offsetHeight})`
+    message.style.bottom = `-${message.offsetHeight}px`
+    // message.style.transform = `translateY(-${message.offsetHeight})`
     console.log(message.offsetHeight)
 
     setTimeout(() => {
         message.style.bottom = "0px"
         // message.style.transform = `translateY(${message.offsetHeight})`
-    }, 1000);
+    }, 100);
 
     setTimeout(() => {
         message.style.bottom = `-${message.offsetHeight}px`
