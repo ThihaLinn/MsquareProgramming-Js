@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #042a2b;
+}
+.navigation{
+    display: flex ;
+    justify-content: space-around;  
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #334155;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+
+}
+.hover-menu{
+    width: 0px;
+    height: 5px;
+    background-color: #0ea5e9;
+    transition: all  ease-in-out 0.4s;
+}
+span{
+    padding: 10px 20px;
+}
+
