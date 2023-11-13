@@ -1,0 +1,28 @@
+body{
+    background-color: #334155;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5{
+    margin: 0px 20px;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 400px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewsAndDate{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 20px;
+    font-size: medium;
+}
