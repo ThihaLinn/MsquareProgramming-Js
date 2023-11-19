@@ -1,0 +1,12 @@
+body{background-color: #334155;
+
+}
+
+.comment{
+    background-color: #64748b;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
